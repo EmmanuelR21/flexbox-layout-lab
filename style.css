@@ -52,14 +52,17 @@ li {
 
 .content {
     display: flex;
+    height:100%;
 }
 
 .ourTeam {
     width: 20%;
     padding: 20px;
+    height:100%;
 }
 
 .ourMission {
     width: 80%;
     padding: 20px;
+    height: ght:100%;
 }

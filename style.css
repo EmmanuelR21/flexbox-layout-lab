@@ -1,13 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 .navbar {
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
 
 .image{
     background-color: grey;
     text-align: center;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 img {
-   display: flex;
+   display: block;
    justify-content:center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div {
+    border: 1px solid black;
+}
+
+navbar {
+    margin: ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+li {
+    padding: 10px;
+}
+
+.title {
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.content {
+    display: flex;
+}
+
+.ourTeam {
+    width: 20%;
+    padding: 20px;
+}
+
+.ourMission {
+    width: 80%;
+    padding: 20px;
 }

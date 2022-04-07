@@ -1,3 +1,13 @@
 .navbar {
     justify-content: flex-end;
 }
+
+.image{
+    background-color: grey;
+    text-align: center;
+    
+}
+img {
+   display: flex;
+   justify-content:center;
+}
